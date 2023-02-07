@@ -5,7 +5,21 @@ Pipeline{
         Stage("build"){
             steps{
                 
+                echo 'building the application...'
             }
         }
+        stage("test"){ 
+            steps {
+                echo 'building the application...'
+            }
+            
+            
+        Stage("build"){
+            steps{
+                
+                echo 'building the application...'
+            }
+        }  
+        
     }
 }
